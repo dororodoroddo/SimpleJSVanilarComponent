@@ -2,6 +2,12 @@
 * 간단히 구현하여 사용할 수 있는 vanilla javascipt 컴포넌트
 * 반응형 컴포넌트 기초 학습용
 
+## 구조 
+* component
+  * 다른 컴포넌트를 생성하는 기초
+* store
+  * 공통 상태 관리를 위한 스토어
+
 ## 개선이 가능한 사항
 * vuex에서 사용 가능한 getters 미구현, mutaion은 actions로 통합
   * getters는 render처럼 참조하는 state가 업데이트 되면 업데이트 되며 state처럼 로컬 state와 연결
