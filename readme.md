@@ -8,6 +8,9 @@
 * store
   * 공통 상태 관리를 위한 스토어
 
+## 사용예
+* demo 브랜치 확인
+
 ## 개선이 가능한 사항
 * vuex에서 사용 가능한 getters 미구현, mutaion은 actions로 통합
   * getters는 render처럼 참조하는 state가 업데이트 되면 업데이트 되며 state처럼 로컬 state와 연결
@@ -17,3 +20,4 @@
   * render의 호출을 requestAnimationFrame으로 미루고 그동안 같은 함수 내에서의 호출을 막아 해결할 수 있다.
 * props와 memoization
   * memoization이 없는 props 전달은 성능상의 이슈와 오류가 발생할 가능성이 높다고 생각하여 사용하지 않았다.
+* 가볍게 작성되었고 Anneong.js로 개선된 프레임워크 제작중
