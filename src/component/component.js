@@ -1,5 +1,5 @@
 import Store from '../store/store.js';
-let a = 1
+
 export default function component({
   rootEl,
   state,
