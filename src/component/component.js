@@ -4,6 +4,7 @@ export default function component({
   rootEl,
   state,
   renderFuntion,
+  mounted = ()=>{},
 }) {
   let isRender = false;
   let isSync = false;
@@ -54,6 +55,8 @@ export default function component({
   }
 
   this.render();
+
+  mounted.call(state);
 }
 
 export function getSimpleElement(

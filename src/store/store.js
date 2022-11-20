@@ -7,7 +7,6 @@ function store(initialState, actions) {
     set: (target, key, value, reciever) => {
       if (target[key] !== value) {
         this.stateSetMethods[key].forEach((methods)=>{
-          console.log(value);
           methods(value);
         });
       }
