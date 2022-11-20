@@ -2,16 +2,16 @@
 * 간단히 구현하여 사용할 수 있는 vanilla javascipt 컴포넌트
 * 반응형 컴포넌트 기초 학습용
 
-## 구조 
+## ls
 * component
   * 다른 컴포넌트를 생성하는 기초
 * store
   * 공통 상태 관리를 위한 스토어
 
-## 사용예
-* demo 브랜치 확인
+## demo
+* in demo branch
 
-## 개선이 가능한 사항
+## Needs improvement
 * 반응형 최적화
   * 아래 코드처럼 isRender가 매 render시마다 renderState를 중복해서 누적시키고 있다.
   ```javascript
